@@ -1,0 +1,9 @@
+spring:
+  hadoop:
+    fsUri: hdfs://10.128.1.38:9000
+    resourceManagerHost: 10.128.1.38
+    resourceManagerPort: 8032
+    config:
+      mapreduce.jobhistory.address: 10.128.1.38:10020
+      mapreduce.framework.name: yarn
+      mapreduce.app-submission.cross-platform: true
